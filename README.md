@@ -133,4 +133,12 @@ following settings
 
 From Release [November 2024](https://github.com/protwis/protwis/releases/tag/v2024_11) RDKit cartridge for PostgreSQL is required.
 
-Two 
+Two installation methods are describe next, the Docker method and the Manual instalation method.
+
+####Docker method
+
+
+####Manual instalation method
+
+After loging in into the vagrant VM through a SSH terminal, follow these steps:
+
