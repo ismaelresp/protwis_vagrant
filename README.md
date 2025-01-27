@@ -128,3 +128,9 @@ following settings
     Server: localhost
     Username: protwis
     Password: protwis
+
+### RDKit cartridge update of GPCRdb development environment and GPCRdb Vagrant and servers
+
+From Release [November 2024](https://github.com/protwis/protwis/releases/tag/v2024_11) RDKit cartridge for PostgreSQL is required.
+
+Two 
