@@ -158,7 +158,7 @@ After loging in into the vagrant VM through a SSH terminal (as "vagrant" user), 
     ```
 3. Make a backup of ~/.bashrc running the following command:
     ```
-       cp ~/.bashrc ~/.bashrc.rdkit_cartridge_user_bkp
+    cp ~/.bashrc ~/.bashrc.rdkit_cartridge_user_bkp
     ```
 4. Run the script to install *conda* with the following command (**if you have previously installed *conda* on your own** inside the Vagrant Virtual Machine guest OS, read https://github.com/ismaelresp/docker-postgres-rdkit/blob/master/install/README.md):
     ```
