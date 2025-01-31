@@ -160,12 +160,12 @@ After loging in into the vagrant VM through a SSH terminal (as "vagrant" user), 
     ```
     cp ~/.bashrc ~/.bashrc.rdkit_cartridge_user_bkp
     ```
-4. Run the script to install *conda* with the following command (**if you have previously installed *conda* on your own** inside the Vagrant Virtual Machine guest OS, read https://github.com/ismaelresp/docker-postgres-rdkit/blob/master/install/README.md):
+4. Run the script to install *conda* with the following command (**if you have previously installed *conda* on your own** inside the Vagrant Virtual Machine guest OS, read first https://github.com/ismaelresp/docker-postgres-rdkit/blob/master/install/README.md):
     ```
     cd ~/rdkit_cartridge/install
     sudo bash install_conda_rdkit_cartridge.sh
     ```
-    **IMPORTANT:** If *install_conda_rdkit_cartridge.sh* fails, restore the *~/.bashrc* file as explained at the end of the page https://github.com/ismaelresp/docker-postgres-rdkit/blob/master/install/README.md.
+    **IMPORTANT:** If *install_conda_rdkit_cartridge.sh* fails, restore the *~/.bashrc* file as explained at the end of the page https://github.com/ismaelresp/docker-postgres-rdkit/blob/master/install/README.md before repeating this step or running again *install_conda_rdkit_cartridge.sh*.
 
 5. Run 'bash' in the terminal.
 
