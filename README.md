@@ -137,7 +137,7 @@ For installing django-rdkit after loging in into the vagrant VM through a SSH te
 
     /env/bin/pip install git+https://github.com/rdkit/django-rdkit.git
 
-Two installation methods for RDKit cartridge for PostgreSQL are describe next: the Docker method and the Manual instalation method.
+Two installation methods for RDKit cartridge for PostgreSQL are describe next: the [Docker method](https://github.com/ismaelresp/protwis_vagrant/edit/rdkit_cartridge_install_instrucctions_dirty/README.md#docker-method) and the [Manual instalation method](https://github.com/ismaelresp/protwis_vagrant/edit/rdkit_cartridge_install_instrucctions_dirty/README.md#manual-instalation-method).
 
 #### Docker method
 
@@ -145,4 +145,6 @@ Two installation methods for RDKit cartridge for PostgreSQL are describe next: t
 #### Manual instalation method
 
 After loging in into the vagrant VM through a SSH terminal, follow these steps:
+
+
 
