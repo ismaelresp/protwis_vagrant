@@ -146,7 +146,7 @@ TO BE DONE
 
 After loging in into the vagrant VM through a SSH terminal (as "vagrant" user), follow these steps:
 
-1. Download the [install.tar.gz](https://github.com/ismaelresp/docker-postgres-rdkit/releases/download/v0.0.4/install.tar.gz) file with the installation scripts into a folder in the vagrant user home directory running the following commands:
+1. Download the [install.tar.gz](https://github.com/ismaelresp/docker-postgres-rdkit/releases/download/v0.0.4/install.tar.gz) file containing the installation scripts into a folder in the vagrant user home directory running the following commands:
     ```
     mkdir ~/rdkit_cartridge
     /usr/bin/wget -q https://github.com/ismaelresp/docker-postgres-rdkit/releases/download/v0.0.4/install.tar.gz -O ~/rdkit_cartridge/install.tar.gz
