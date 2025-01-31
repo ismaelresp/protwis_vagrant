@@ -131,13 +131,13 @@ following settings
 
 ### RDKit cartridge update of GPCRdb development environment and GPCRdb Vagrant and servers
 
-From Release [November 2024](https://github.com/protwis/protwis/releases/tag/v2024_11) RDKit cartridge for PostgreSQL and django-rdkit python library are required is required.
+From Release [November 2024](https://github.com/protwis/protwis/releases/tag/v2024_11), **RDKit cartridge** for **PostgreSQL** and **django-rdkit** python library are required.
 
 For installing django-rdkit after loging in into the vagrant VM through a SSH terminal, run this command:
 
     /env/bin/pip install git+https://github.com/rdkit/django-rdkit.git
 
-Two installation methods are describe next, the Docker method and the Manual instalation method.
+Two installation methods for RDKit cartridge for PostgreSQL are describe next: the Docker method and the Manual instalation method.
 
 #### Docker method
 
