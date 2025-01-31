@@ -144,7 +144,9 @@ TO BE DONE
 
 #### Manual instalation method
 
-After loging in into the vagrant VM through a SSH terminal (as "vagrant" user), follow these steps:
+**First**, with the Vagrant VM halted, edit the line `vb.customize ["modifyvm", :id, "--memory", "4096"]` file ~/protwis_vagrant/Vagrantfile, replacing "4096" by 2048 multiplied by the number of CPUs asigned in Vagrantfile ("8096" for 4 CPUs). The number can be set back to its original value after **RDKit cartridge** for **PostgreSQL** installation.
+
+**Second**, after a `vagrant up` and logging in into the vagrant VM through a SSH terminal (as "vagrant" user), follow these steps:
 
 1. Download the [install.tar.gz](https://github.com/ismaelresp/docker-postgres-rdkit/releases/download/v0.0.4/install.tar.gz) file containing the installation scripts into a folder in the vagrant user home directory running the following commands:
     ```
