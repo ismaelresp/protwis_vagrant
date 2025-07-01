@@ -186,9 +186,22 @@ TO BE DONE
     cd ~/rdkit_cartridge/install
     sudo bash create_rdkit_extension.sh
     ```
-9. RECOMMENDED: Follow the [Testing installation instructions](https://github.com/ismaelresp/docker-postgres-rdkit/blob/master/install/README.md#testing-installation-recommended) and the [Restoring ~/.bashrc instructions](https://github.com/ismaelresp/docker-postgres-rdkit/blob/master/install/README.md#restoring-bashrc) at https://github.com/ismaelresp/docker-postgres-rdkit/blob/master/install/README.md .
+9. RECOMMENDED: Follow the next steps for testing your installation.
+10. Edit *pg_hba.conf* (usually found at /etc/postgresql/[MAJOR_POSTGRES_VERSION]/main/pg_hba.conf) using 'vim' or 'nano' (if needed, look for a tutorial on how to edit a file with vim or nano) so the following line  is present and uncommented:
 
-   Before following the [Testing installation instructions](https://github.com/ismaelresp/docker-postgres-rdkit/blob/master/install/README.md#testing-installation-recommended), change the working directory of your SSH terminal to `~/rdkit_cartridge/install` . The `config.sh` file mentioned in such instructions is `~/rdkit_cartridge/install/config.sh`. The contents of the mentioned file can that can be displayed with the command `cat ~/rdkit_cartridge/install/config.sh`.
+        local	all      all          peer
+
+    Alternatively, the following line in *pg_hba.conf* should be present and uncommented replacing POSTGRES_USER by the value of the *POSTGRES_USER* variable in `~/rdkit_cartridge/install/config.sh`. Default *rdkit-test*:
+
+        local	all      POSTGRES_USER          peer
+
+    These pg_hba.conf settings are only needed for installing and testing installation.
+
+11. Change the working directory of your SSH terminal to `~/rdkit_cartridge/install`.
+
+12. Follow [Testing installation instructions](https://github.com/ismaelresp/docker-postgres-rdkit/blob/master/install/README.md#testing-installation-recommended) and the [Restoring ~/.bashrc instructions](https://github.com/ismaelresp/docker-postgres-rdkit/blob/master/install/README.md#restoring-bashrc) at https://github.com/ismaelresp/docker-postgres-rdkit/blob/master/install/README.md .
+
+    The `config.sh` file mentioned in such instructions is `~/rdkit_cartridge/install/config.sh`. The contents of the mentioned file can that can be displayed with the command `cat ~/rdkit_cartridge/install/config.sh`.
 
 For manual installation troubleshooting, please read https://github.com/ismaelresp/docker-postgres-rdkit/blob/master/install/README.md .
 
