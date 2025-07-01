@@ -193,7 +193,7 @@ TO BE DONE
     sudo apt install vim
     sudo apt install nano
     ```
-12. Edit *pg_hba.conf* (usually found at /etc/postgresql/[MAJOR_POSTGRES_VERSION]/main/pg_hba.conf) using 'sudo vim /path/to/pg_hba.conf' or 'sudo nano /path/to/pg_hba.conf' commands in the SSH terminal (if needed, look for a tutorial on how to edit a file with vim or nano) so the following line is present and uncommented:
+12. Edit *pg_hba.conf* (usually found at /etc/postgresql/[MAJOR_POSTGRES_VERSION]/main/pg_hba.conf) using `sudo vim /path/to/pg_hba.conf` or `sudo nano /path/to/pg_hba.conf` commands in the SSH terminal (if needed, look for a tutorial on how to edit a file with vim or nano) so the following line is present and uncommented:
 
         local	all      all          peer
 
